@@ -4,6 +4,10 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Queue;
 
+/**
+ * Checks whether a graph is Bipartite or not.
+ * A bipartite graph is also called a 2-colorable graph.
+ */
 public class BipartiteGraph {
 
     public boolean isBipartite(int V, ArrayList<ArrayList<Integer>> graph) {

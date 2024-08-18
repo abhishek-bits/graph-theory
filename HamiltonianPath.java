@@ -3,6 +3,13 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * Finding a Hamiltonian Cycle or a Hamiltonian Path is an NP-Complete problem.
+ * But here our task is simple, we just need to find whether Hamiltonian path
+ * exists in the given graph or not.
+ * A Hamiltonian path is a path in an undirected graph that visits each vertex
+ * exactly once.
+ */
 public class HamiltonianPath {
     boolean hamiltonianPathExists;
 

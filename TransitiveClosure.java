@@ -1,6 +1,11 @@
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Transitive Closure of a graph is used to find a matrix which
+ * tell us whether for a given vertex 'i', we can reach a vertex 'j'.
+ * 0 <= i, j < V and i != j.
+ */
 public class TransitiveClosure {
 
     static ArrayList<ArrayList<Integer>> res;
